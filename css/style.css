@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lato|Raleway');
+@import	url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootsratp.min.css')
+
+.center {
+	margin: auto;
+}
+h1 {
+	font-size: 90px;
+	font-family: Lato;
+	font-weight: bold;
+	text-align: center;
+	color: #273244;
+}
+
+p {
+	font-size: 30px;
+	font-family: Raleway;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 50%;
+	padding: 20px;
+}
+.animated {
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	animation-delay: 1s;
+}
+.animated.one {
+	-webkit-amination-iteration-count: 1;
+	animation-iteration-count: 1;
+}
+
+@keyframes jackInTheBox {
+	from {
+		opacity: 0;
+		transform: scale(0.1) rotate(30deg);
+		transform-origin: center bottom;
+	}
+	50% {
+		transform: rotate(-10deg);
+	}
+	70% {
+		transform: rotate(3deg);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+.jackInTheBox {
+	animation-name: jackInTheBox;
+	text-align: center;
+	font-size: 60px;
+	font-family: Amatic SC;
+}
+.banner {
+	width: absolute;
+	height: 80px;
+	background-color: #cbd0d8;
+}
+ul {
+	font-family: Raleway;
+	text-align: justify;
+	font-size: 20px;
+	color: #000000;
+}
